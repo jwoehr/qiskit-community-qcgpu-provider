@@ -7,8 +7,7 @@ import os.path
 import math
 
 from qiskit import ClassicalRegister, QuantumRegister, QuantumCircuit
-from qiskit.wrapper import load_qasm_file
-from qiskit import QISKitError, execute, Aer
+from qiskit import QiskitError, execute, Aer
 
 from qiskit_qcgpu_provider import QCGPUProvider
 
